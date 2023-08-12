@@ -18,7 +18,6 @@ with open(os.path.join(PATH_NAME,"data/word.json"),"r") as file:
 data = data_name + data_words
 
 
-
 while search == True:
     name = random.choice(data)
     url = f"https://www.{name}.com/"

@@ -2,9 +2,6 @@ import random
 import requests
 import json
 
-
-
-
 class Site:
     def __init__(self):
         
